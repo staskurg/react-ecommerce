@@ -4,6 +4,8 @@
 // components
 @import './components/cart-dropdown';
 @import './components/cart-icon';
+@import './components/cart-item';
+@import './components/checkout-item';
 @import './components/collection-item';
 @import './components/collection-preview';
 @import './components/custom-button';
@@ -15,5 +17,6 @@
 @import './components/signup';
 
 // pages
+@import './pages/checkout';
 @import './pages/homepage';
 @import './pages/signin-signup';
