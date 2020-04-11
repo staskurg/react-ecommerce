@@ -2,11 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-import { auth } from 'firebase-connect/firebase'
+import { auth } from 'firebase/index'
 
 import { ReactComponent as Logo } from 'assets/crown.svg'
-
-import './styles.scss'
 
 const Header = ({ currentUser }) => (
   <div className="header">

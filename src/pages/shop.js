@@ -1,8 +1,8 @@
 import React from 'react'
 
-import CollectionPreview from 'components/collection-preview/collection-preview'
+import CollectionPreview from 'components/collection-preview'
 
-import SHOP_DATA from './shop.data'
+import SHOP_DATA from 'pages/mockdata/shop.data'
 
 class ShopPage extends React.Component {
   constructor(props) {

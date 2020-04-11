@@ -1,4 +1,4 @@
-import { TYPES } from './user.types'
+import { TYPES } from 'redux/constants'
 
 const INITIAL_STATE = {
   currentUser: null,

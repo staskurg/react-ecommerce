@@ -2,13 +2,11 @@ import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-import './App.css'
-
-import HomePage from 'pages/homepage/homepage'
-import ShopPage from 'pages/shop/shop'
-import SignInSignUp from 'pages/signin-signup/signin-signup'
-import Header from 'components/header/header'
-import { auth, createUserProfileDocument } from 'firebase-connect/firebase'
+import HomePage from 'pages/homepage'
+import ShopPage from 'pages/shop'
+import SignInSignUp from 'pages/signin-signup'
+import Header from 'components/header'
+import { auth, createUserProfileDocument } from 'firebase/index'
 import { setCurrentUser } from 'redux/user/user.actions'
 
 class App extends React.Component {
